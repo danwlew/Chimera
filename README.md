@@ -1,10 +1,10 @@
-Chimera is a (shiny and very hack-ish) PowerShell obfuscation script designed to bypass AMSI and antivirus solutions. It digests malicious PS1's known to trigger AV and uses string substitution and variable concatenation to evade common detection signatures.
+Chimera to skrypt obfuskujący w PowerShellu zaprojektowany by ominąć rozwiązania antywirusowe i AMSI. Ukrywa różnezłośliwe PS1 znane do pobudzania systemów ochrony antywirusowej wykorzystując zamiany strunków i zmiennych by ominąć typowe sygnatury detekcji.
 
 ![](images/chimera.gif)
 
-Chimera was created for [this write-up](https://null-byte.com/bypass-amsi-0333967/) and is [further evidence](https://github.com/tokyoneon/Chimera#resources) of how trivial it is to bypass detection signatures. Hopefully, this repository will inspire someone to build something robust and more reliable.
+Chimera zosstała stworzona do [this write-up](https://null-byte.com/bypass-amsi-0333967/) i jest [further evidence](https://github.com/tokyoneon/Chimera#resources) jak bardzo trywialne jest ominięcie sygnaturs. To repo to tłumaczenie oryginalnej Chimery
 
-## How Chimera works...
+## Jak działa Chimeras...
 
 Below is a snippet of Nishang's [Invoke-PowerShellTcp.ps1](shells/Invoke-PowerShellTcp.ps1), found at [nishang/Shells](https://github.com/samratashok/nishang/blob/master/Shells/Invoke-PowerShellTcp.ps1). VirusTotal reports [25 detections](https://www.virustotal.com/gui/file/0f1e223eaf8b6d71f65960f8b9e14c98ba62e585334a6349bcd02216f4415868/detection) of the PS1 script.
 
